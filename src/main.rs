@@ -9,6 +9,7 @@ use crate::fanotify::Event;
 mod fanotify;
 mod fanotify_header;
 mod store;
+mod dfa;
 
 #[derive(Debug, StructOpt)]
 #[structopt(name = "hunt")]
